@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .post-card {
+      display: block;
+      text-decoration: none;
+      background-color: rgba(61, 156, 232, 0.9);
+      border-radius: 10px;
+      width: 94vw;
+      margin: 30px auto;
+      padding: 0 14px;
+      color: #222222;
+      cursor: pointer;
+      transition: transform 0.3s;
+      box-shadow: 5px 10px 10px rgba(61, 156, 232, 0.3);
+    }
+
+    .post-card:hover {
+      transform: scale(0.95);
+    }
+
+    .post-card-header {
+      display: flex;
+      height: 44px;
+      line-height: 44px;
+    }
+
+    .post-card-id {
+      font-size: 17px;
+    }
+
+    .post-card-header-split {
+      padding: 0 6px;
+    }
+
+    .post-card-username {
+      flex: 1;
+      font-size: 18px;
+    }
+
+    .post-card-time {
+      padding-right: 10px;
+      font-size: 18px;
+    }
+
+    .post-card-content {
+      font-size: 20px;
+      color: white;
+      text-indent: 1.5em;
+    }
+
+    .post-card-footer {
+      display: flex;
+      height: 44px;
+      line-height: 44px;
+      font-size: 17px;
+    }
+
+    .post-card-likes {
+      padding-right: 10px;
+    }
+
+    .post-card-views {
+      flex: 1;
+    }
+    
+
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <a class="post-card" href="https://www.bilibili.com">
+      <div class="post-card-header">
+        <div class="post-card-id">#135337</div>
+        <div class="post-card-header-split">·</div>
+        <div class="post-card-username">用户846970</div>
+        <div class="post-card-time">2年前</div>
+      </div>
+      <div class="post-card-main">
+        <div class="post-card-content">
+          uu们有没有什么特别想实现的愿望可以说出来 现在是 幻想时间!
+        </div>
+      </div>
+      <div class="post-card-footer">
+        <div class="post-card-likes">16 点赞</div>
+        <div class="post-card-views">30977 浏览</div>
+        <div class="post-card-replies">320 回复</div>
+      </div>
+    </a>
+
+  </div>
+</body>
+</html>
